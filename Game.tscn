@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Game.gd" type="Script" id=1]
+
+[node name="Game" type="Label"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "This is the game"
+align = 1
+valign = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HandContainer" type="HBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -250.0
+custom_constants/separation = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
